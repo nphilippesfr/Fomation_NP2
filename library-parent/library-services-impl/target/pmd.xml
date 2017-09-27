@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-09-27T16:03:45.781">
+<file name="C:\formation\Workspace\library-parent\library-services-impl\src\main\java\fr\uni\institute\library\service\impl\InventoryManagementServiceImpl.java">
+<violation beginline="58" endline="58" begincolumn="32" endcolumn="33" rule="UselessParentheses" ruleset="Unnecessary" package="fr.uni.institute.library.service.impl" class="InventoryManagementServiceImpl" method="addTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="315" endline="315" begincolumn="32" endcolumn="33" rule="UselessParentheses" ruleset="Unnecessary" package="fr.uni.institute.library.service.impl" class="InventoryManagementServiceImpl" method="modifyTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="383" endline="383" begincolumn="19" endcolumn="40" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.service.impl" class="InventoryManagementServiceImpl" method="removeCategory" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="415" endline="415" begincolumn="32" endcolumn="33" rule="UselessParentheses" ruleset="Unnecessary" package="fr.uni.institute.library.service.impl" class="InventoryManagementServiceImpl" method="removeTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

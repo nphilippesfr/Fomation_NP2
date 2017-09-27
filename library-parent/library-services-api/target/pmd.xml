@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-09-27T16:03:37.902">
+<file name="C:\formation\Workspace\library-parent\library-services-api\src\main\java\fr\uni\institute\library\service\InventoryManagementService.java">
+<violation beginline="16" endline="16" begincolumn="25" endcolumn="84" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="addCategory" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="18" endline="18" begincolumn="25" endcolumn="75" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="addTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="20" endline="20" begincolumn="25" endcolumn="78" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="getAllCategories" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="22" endline="22" begincolumn="25" endcolumn="81" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="getCategoryById" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="24" endline="24" begincolumn="25" endcolumn="75" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="getTitleById" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="26" endline="27" begincolumn="16" endcolumn="48" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="getTitlesBy" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="29" endline="30" begincolumn="25" endcolumn="48" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="loadCategoriesForTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="32" endline="33" begincolumn="25" endcolumn="48" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="modifyCategory" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="35" endline="36" begincolumn="25" endcolumn="48" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="modifyTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="38" endline="39" begincolumn="25" endcolumn="48" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="removeCategory" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="41" endline="42" begincolumn="25" endcolumn="48" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="removeCategoryFromTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="44" endline="44" begincolumn="16" endcolumn="69" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="removeTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="46" endline="46" begincolumn="25" endcolumn="78" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="setAudioRecordDao" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="48" endline="48" begincolumn="25" endcolumn="57" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="setBookDao" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="50" endline="50" begincolumn="25" endcolumn="69" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="setCategoryDao" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="52" endline="52" begincolumn="25" endcolumn="82" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="setRelationDao" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="54" endline="54" begincolumn="25" endcolumn="60" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.service" class="InventoryManagementService" method="setTitleDao" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-09-27T16:03:55.282">
+<file name="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\ResearchTitlesDTO.java">
+<violation beginline="33" endline="34" begincolumn="35" endcolumn="33" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.web" class="ResearchTitlesDTO" method="getResearchParameterDateAsDate" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\ServletAudioRecordSave.java">
+<violation beginline="14" endline="14" begincolumn="19" endcolumn="41" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.web" class="ServletAudioRecordSave" method="completeTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\ServletBookSave.java">
+<violation beginline="14" endline="14" begincolumn="19" endcolumn="41" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.web" class="ServletBookSave" method="completeTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\ServletCategoryCreateModify.java">
+<violation beginline="37" endline="38" begincolumn="35" endcolumn="33" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.web" class="ServletCategoryCreateModify" method="doPost" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\TitleDTO.java">
+<violation beginline="62" endline="62" begincolumn="25" endcolumn="64" rule="UselessParentheses" ruleset="Unnecessary" package="fr.uni.institute.library.web" class="TitleDTO" method="hasCategory" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\tag\Select.java">
+<violation beginline="36" endline="37" begincolumn="27" endcolumn="25" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.web.tag" class="Select" method="getItemValue" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="57" endline="58" begincolumn="27" endcolumn="25" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.web.tag" class="Select" method="getItemDisplay" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2017-09-27T16:03:17.200">
+<file name="C:\formation\Workspace\library-parent\library-model\src\main\java\fr\uni\institute\library\business\inventory\Category.java">
+<violation beginline="110" endline="110" begincolumn="27" endcolumn="49" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.business.inventory" class="Category" method="getAudioRecords" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="130" endline="130" begincolumn="27" endcolumn="49" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.business.inventory" class="Category" method="getBooks" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="172" endline="172" begincolumn="27" endcolumn="49" rule="EmptyCatchBlock" ruleset="Empty Code" package="fr.uni.institute.library.business.inventory" class="Category" method="getVideoRecords" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="182" endline="182" begincolumn="25" endcolumn="51" rule="UselessParentheses" ruleset="Unnecessary" package="fr.uni.institute.library.business.inventory" class="Category" method="hasTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\formation\Workspace\library-parent\library-model\src\main\java\fr\uni\institute\library\business\inventory\InventoryVisitor.java">
+<violation beginline="5" endline="5" begincolumn="16" endcolumn="69" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.business.inventory" class="InventoryVisitor" method="visitBook" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="6" endline="6" begincolumn="16" endcolumn="81" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.business.inventory" class="InventoryVisitor" method="visitCategory" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="7" endline="7" begincolumn="16" endcolumn="91" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.business.inventory" class="InventoryVisitor" method="visitAudioRecord" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="8" endline="8" begincolumn="16" endcolumn="72" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.business.inventory" class="InventoryVisitor" method="visitTitle" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="9" endline="9" begincolumn="16" endcolumn="90" rule="UnnecessaryModifier" ruleset="Unnecessary" package="fr.uni.institute.library.business.inventory" class="InventoryVisitor" method="visitVideoRecord" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="C:\formation\Workspace\library-parent\library-model\src\main\java\fr\uni\institute\library\business\inventory\Title.java">
+<violation beginline="166" endline="166" begincolumn="25" endcolumn="58" rule="UselessParentheses" ruleset="Unnecessary" package="fr.uni.institute.library.business.inventory" class="Title" method="hasCategory" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

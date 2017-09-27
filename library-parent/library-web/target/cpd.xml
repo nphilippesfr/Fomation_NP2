@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="17" tokens="114">
+      <file line="23"
+            path="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\ServletTitleDelete.java"/>
+      <file line="23"
+            path="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\ServletTitleDetail.java"/>
+      <file line="24"
+            path="C:\formation\Workspace\library-parent\library-web\src\main\java\fr\uni\institute\library\web\ServletTitleModify.java"/>
+      <codefragment><![CDATA[	private static final  Logger logger = Logger.getLogger(ServletTitleDelete.class);
+	private Connection connection = null;
+	
+	
+	public void doPost(HttpServletRequest request, HttpServletResponse response) {
+		try {
+			int id = Integer.parseInt(request.getParameter("titleId"));
+			 connection = getConnection();
+			InventoryManagementService service = new InventoryManagementServiceImpl();
+			TitleDao titleDao = new TitleDaoJdbc(connection) ;
+			service.setTitleDao(titleDao);
+			service.setAudioRecordDao(new AudioRecordDaoJdbc(connection,titleDao));
+			service.setBookDao(new BookDaoJdbc(connection,titleDao));
+			service.setCategoryDao(new CategoryDaoJdbc(connection));
+			service.setRelationDao(new CategoryTitleRelationDaoJdbc(
+					connection));
+			Title title = service.getTitleById(id);]]></codefragment>
+   </duplication>
+</pmd-cpd>
